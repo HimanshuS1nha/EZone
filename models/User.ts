@@ -11,7 +11,7 @@ const UserSchema = new Schema({
         required: [true, "Name is required"]
     },
     image: {
-        tyoe: String
+        type: String
     }
 }, { timestamps: true })
 
